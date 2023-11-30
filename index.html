@@ -1,0 +1,162 @@
+<!-- 宣告HTML5文件 -->
+<!doctype html>
+<!-- 根元素 -->
+<html lang="zh-Hant-TW">
+  <!-- 檔頭 -->
+  <head>
+    <!-- 中繼標籤 -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="樂遊旅行">
+    <meta name="description" content="推薦台灣的三個景點, 包含台北101大樓, 彰化八卦山大佛, 高雄愛河, 也提供交通部觀光局的相關資訊">
+    <meta name="generator" content="Visual Studio Code v.1.83.1">
+    <meta name="keywords" content="台北101大樓, 彰化八卦山大佛, 高雄愛河, 交通部觀光局, 樂遊旅行, 旅行, 旅遊, 國內旅遊, 樂遊">
+    <!-- favicon -->
+    <!-- 網站標題 -->
+    <title>樂遊旅行-首頁</title>
+    <!-- BootstrapCSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+    <!-- GA追蹤分析 -->
+  </head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N0S9874E21"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N0S9874E21');
+</script>
+  <!-- 網頁本文 -->
+  <body>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">樂遊旅行</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">關於品牌</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="viewpoint.html">景點介紹</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hotel.html">住宿資訊</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="safe.html">旅遊安全</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.php">留言發問</a>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/index/taipei-taiwan-g618d33cde_1280-ok.webp" class="d-block w-100" alt="台北101大樓" title="台北101大樓" aria-label="台北101大樓">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/paris-gc25e242bc_1280-ok.webp" class="d-block w-100" alt="巴黎街道" title="巴黎街道" aria-label="巴黎街道">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/paris-ge57f5fe5e_1280-ok.webp" class="d-block w-100" alt="巴黎橋梁" title="巴黎橋梁" aria-label="巴黎橋梁">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 order-md-0 mt-5">
+            <img src="images/index/taipei-101-918509_1920-ok.webp" class="rounded-circle w-100" alt="台北101大樓" title="台北101大樓" aria-label="台北101大樓">
+            <div class="card-body">
+              <h2 class="">台北101大樓</h2>
+              <p class="card-text">一座傑出的地標建築，足以改變這個城市。如同帝國大廈之於紐約、艾菲爾鐵塔之於巴黎、更如晚近的金茂大廈之於上海。台北 101辦公大樓市場定位為具國際水準的頂級辦公環境，具有多項優勢值得計畫在台灣發展的跨國企業投資進駐，除了位於國家整體規劃的信義計畫都心區域外，還包括多項具前瞻性價值之優勢，如寬敞達八百坪無遮攔的平均單層面積，較一般辦公大樓更高的挑高空間，及寬闊的門廳、展示及公共空間等。</p>
+              <p class="text-end"><a href="https://www.taipei-101.com.tw/tw/" target="_blank" class="btn btn-primary" role="button">台北101大樓</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 order-md-1 mt-5">
+            <img src="images/index/big-buddha-2818299_1920-ok.webp" class="rounded-circle w-100" alt="彰化八卦山大佛" title="彰化八卦山大佛" aria-label="彰化八卦山大佛">
+            <div class="card-body">
+              <h2>彰化八卦山大佛</h2>
+              <p>民國四十五年一月首任彰化縣長陳錫卿先生為整建八卦山風景區發起倡議建造遠東地區最巨大之佛像以壯美景。隨即發動當時縣商會理事長王裕芳、彰化市善化佛堂堂主世溪松及信士陳許碧梧等組成『八卦山大佛建造促進委員會』並向彰化縣政府申請租用南郭段三十地號公有土地，且擇定八卦山上原日據時代『北白川宮紀念碑』原地為建造大佛像之吉址。八卦山大佛黑身如來譽稱亞洲第一大佛，佛高約 (連臺座) 七丈二尺，大佛法腹內部分為六層，以八相成道分層 塑造佛傳故事，也是彰化市特有的地標，法相尊嚴，以供遊人參觀膜拜。</p>
+              <p class="text-end"><a class="btn btn-primary" href="https://www.taiwan.net.tw/m1.aspx?sNo=0001016&id=2154" role="button" target="_blank">彰化八卦山大佛</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 order-md-2 mt-5">
+            <img src="images/index/rainbow-riverside-park-854888_1920-ok.webp" class="rounded-circle w-100" alt="高雄愛河" title="高雄愛河" aria-label="高雄愛河">
+            <h2>高雄愛河</h2>
+            <p>愛河發源於高雄市仁武區，流經高雄市區，為高雄主要河川之一，猶如城市的母親之河。下游河岸整治而成河濱公園，是市區內散步休憩的好去處，也是端午節划龍舟與元宵節燈會的舞台。過去由於工業污染與都市廢水排放不當，使得愛河因污染嚴重而惡名昭彰，但近年來經政府努力整治，並陸續在河岸兩旁進行綠化，闢建休息設施，方使愛河的浪漫風華得以重現。愛河入夜以後沿著水面點點霓虹彩光，東西兩岸各具不同情調的「愛河曼波」與「黃金愛河」咖啡藝文廣場，散發迷人的咖啡香及快慢交替的美妙樂音，令人不得放慢腳步而融入其中，讓港灣城市的水岸休閒風情，為身心靈作徹底的放鬆。</p>
+            <p class="text-end"><a class="btn btn-primary" href="https://www.taiwan.net.tw/m1.aspx?sNo=0001121&id=625" role="button" target="_blank">高雄愛河</a></p>
+          </div>
+        </div>
+        <hr>
+        <div class="row my-5">
+          <div class="col-md-7">
+            <h2>交通部觀光局<span class="text-muted"> 台灣最高觀光管理部門</span></h2>
+            <p>交通部觀光局（簡稱觀光局）是中華民國觀光事務的最高主管機關，隸屬於交通部之下。除了負責規劃、執行並管理觀光旅遊事務之外，同時肩負起向外推廣臺灣觀光的工作。觀光局也是各國家級風景特定區的主管機關。</p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/index/escalator-283448_1920-ok.webp" alt="交通部觀光局辦公大樓" class="img-fluid mx-auto" aria-label="交通部觀光局辦公大樓">
+          </div>
+        </div>
+        <hr>
+        <div class="row my-5">
+          <div class="col-md-7 order-md-1">
+            <h2>旅遊前注意事項<span class="text-muted"> 安全出遊最重要</span></h2>
+            <p>休閒旅遊，為求行走方便，請著輕裝便鞋。個人裝備：相機、墨鏡、遮陽帽、雨具、泳衣、泳帽、防晒油。◎團體活動，請注意休息時間與開車時間及地點。日常用品及私人慣用藥品，請自行攜帶。請帶身份證、健保卡。</p>
+          </div>
+          <div class="col-md-5 order-md-0">
+            <img src="images/index/urban-438393_1920-ok.webp" alt="快樂安全的旅遊" class="img-fluid mx-auto" aria-label="快樂安全的旅遊">
+          </div>
+        </div>
+        <hr>
+        <div class="row my-5">
+          <div class="col-md-7">
+            <h2>住宿的注意事項 <span class="text-muted">住得安全玩得更開心</span></h2>
+            <p>進房時間、退房時間、室內一律禁止抽煙酗酒、貴重的物品須小心保管、房價及加人加床服務、可免費入住小朋友、平日價:周日至周五、假日價:周六、暑假7-8月(週五、週六) 、定價:春節期間、房內設施、公共空間。</p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/index/travel-1677347_1920-ok.webp" alt="住得安全玩得更開心" class="img-fluid mx-auto" aria-label="住得安全玩得更開心">
+          </div>
+        </div>
+        <hr>
+      </div>
+      <footer class="container">
+        <p class="float-end"><a href="#top">回到頁面頂端</a></p>
+        <p>樂遊旅行 &copy; 2023</p>
+      </footer>
+    </main>
+    <!-- BootstrapJS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

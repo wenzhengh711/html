@@ -1,0 +1,178 @@
+<!-- 宣告HTML5文件 -->
+<!doctype html>
+<!-- 根元素 -->
+<html lang="zh-Hant-TW">
+  <!-- 檔頭 -->
+  <head>
+    <!-- 中繼標籤 -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="樂遊旅行">
+    <meta name="description" content="旅遊時有很多需要的地方,如住宿,交通,安全...等等">
+    <meta name="generator" content="Visual Studio Code v.1.83.1">
+    <meta name="keywords" content="國平老旅遊網,住宿,交通,安全">
+    <!-- favicon -->
+    <!-- 網站標題 -->
+    <title>樂遊旅行-旅遊安全</title>
+    <!-- BootstrapCSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- GA追蹤分析 -->
+  </head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N0S9874E21"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N0S9874E21');
+</script>
+  <!-- 網頁本文 -->
+  <body>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">樂遊旅行</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">關於品牌</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="viewpoint.html">景點介紹</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hotel.html">住宿資訊</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="safe.html">旅遊安全</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.php">留言發問</a>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/index/taipei-taiwan-g618d33cde_1280-ok.webp" class="d-block w-100" alt="台北101大樓" title="台北101大樓" aria-label="台北101大樓">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/paris-gc25e242bc_1280-ok.webp" class="d-block w-100" alt="巴黎街道" title="巴黎街道" aria-label="巴黎街道">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/paris-ge57f5fe5e_1280-ok.webp" class="d-block w-100" alt="巴黎橋梁" title="巴黎橋梁" aria-label="巴黎橋梁">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-7 order-md-1 mt-5">
+                <h2><i class="material-icons" style="font-size:1.7rem;color:rgb(19, 54, 123);vertical-align: bottom;">location_city</i>外交部領事事務局全球資訊網-旅遊警示</h2>
+                <p class="textIndent">外交部發布之<span class="text-orange">旅遊警示</span>，係提供國人出國旅行之參考資訊，屬參考性質之建議，與國外旅遊定型化契約條款之適用並無必然關係，亦無強制拘束力，國人仍應自行決定其旅行計畫。國人倘遇旅遊消費爭議而無法解決時，可向中華民國旅行業品質保障協會（地址：台北市長安東路2段78號11樓；電話：2599-5088）或交通部觀光局（地址：台北市忠孝東路4段290號9樓；免費申訴電話：0800-211-734）申訴，請求安排調處。<br>外交部呼籲國人出國務請提高警覺，倘遇緊急狀況請儘速與我當地駐外館處聯繫<br>國外旅遊疫情資訊，請參考衛生福利部疾病管制署發布之訊息<br>陸港澳旅遊警示資訊，請參考大陸委員會發布之訊息（國人赴大陸地區、香港及澳門遇有急難救助事件，請撥打大陸委員會全球資訊網提供之『急難救助電話』求助）</p>
+                <p class="text-end"><a href="https://www.boca.gov.tw/sp-trwa-list-1.html" target="_blank" class="btn btn-success" role="button">外交部官網</a></p>
+            </div>
+            <div class="col-md-5 order-md-0 mt-5">
+                <img src="images/safe/globe-trotter.webp" class="img-fluid mx-auto" alt="開心安全地環遊世界" title="開心安全地環遊世界" aria-label="開心安全地環遊世界">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7 order-md-1 mt-5">
+                <h2><i class="material-icons" style="font-size:1.5rem;color:rgb(19, 54, 123);vertical-align:bottom;">train</i>國內旅遊安全須知</h2>
+                <ol class="list-no">
+                  <li>出遊前先收集相關交通旅遊資訊，並做好行程規劃與訂房。</li>
+                  <li>旅遊裝備要事先準備妥當，並瞭解自己健康狀況，隨身攜帶必備藥物。</li>
+                  <li>行車遵守交通規則，並遵照交通指揮人員指揮通行。</li>
+                  <li>隨時注意電視廣播報章雜誌有關交通狀況及氣象報導，掌握情況。</li>
+                  <li>注意自身旅遊安全，無人管理之地區儘量避免前往，山區注意落石、虎頭蜂、毒蛇、野猴，無救生人員管理之海邊、溪流水域，請勿游泳、戲水。</li>
+                  <li>搭乘遊艇，應著救生衣，並拒絕搭超載及無照之船艇。</li>
+                  <li>搭乘遊樂設施時，應遵守各項安全規定，聽從服務人員解說及指示，以維護安全。</li>
+                  <li>請勿擅自前往危險地區，遵守警告、禁止標誌之規定。</li>
+                </ol>
+                <p class="text-end"><a href="https://www.taiwan.net.tw/" target="_blank" class="btn btn-success" role="button">交通部觀光局</a></p>
+            </div>
+            <div class="col-md-5 order-md-0 mt-5">
+                <img src="images/safe/BaguaMountainBuddha.webp" class="img-fluid mx-auto" alt="彰化八卦山大佛" title="彰化八卦山大佛" aria-label="彰化八卦山大佛">
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7 order-md-1 mt-5">
+              <h2><i class="material-icons" style="font-size:1.5rem;color:rgb(19, 54, 123);vertical-align:bottom;">directions_boat</i>國內旅遊安全須知</h2>
+              <p class="text-danger">出門旅遊是一件讓人既期待又有點擔心的事，因為要到一個陌生的地方去接觸陌生的人、事、物。但是，旅遊所創造的價值及帶來的樂趣卻是無價的，也是人生中的最大收穫。因此，我們要如何享受一個既安全又快樂的旅遊？除了要多收集資訊並充分了解「一分錢一分貨」的真諦外，事先的準備工作更是不能忽視。
+              </p>
+              <p class="text-danger">
+              中華民國旅行業品質保障協會提醒您～至少對下面與旅遊相關的事項上在安排時要格外注意：
+              </p>
+              <h5>旅遊保險</h5>
+              <!-- <ul style="list-style-type:circle">行內樣式，不易維護網頁 -->
+              <!-- 建議改用外部樣式，容易維護網頁 -->
+              <ul class="list-symbol">
+                <li>出門旅遊請自行投保含海外突發疾病/意外醫療理賠之旅遊平安險。</li>
+                <li>參加旅行社所舉辦團體旅遊，請確認該旅行社依法投保旅行業責任保險及旅行業履約保證保險，並對不足之部分自行加保。</li>
+                <li>如用刷卡付費，請向發卡銀行確認信用卡附加保險之涵蓋範圍。有的僅指搭乘固定班次之大眾交通運輸工具，且保障只及於本人、配偶及未婚子女。</li>
+              </ul>
+              <h5>旅遊安排</h5>
+              <ol class="list-no">
+                <li>請務必選擇經交通部正式核發旅行業執照之合法旅行社處理及安排國內外旅遊相關事宜。</li>
+                <li>請先行確認護照效期（部分國家要求入境旅客所持護照須具備自入境日起算六個月以上的效期），並辦妥與本行程目的相符之目的（轉機）國簽證。所有證件上之資料及有效期、相片等一定要核對無誤。</li>
+                <li>事前蒐集旅遊目的地之氣候變化、禮俗禁忌、匯率、疫情、政局等資訊，並至銀行結匯適量外幣。（美金最為通用） </li>
+                <li>參加團體旅行，如係第一次前往該地區，務請參加行前說明會或事先充分閱讀說明會資料，以充分了解行程中應注意事項、準備物件及安全須知。</li>
+                <li>常用藥物、證照及貴重物品，務必於旅遊途中隨身攜帶，勿放置於託運的大行李箱。為預防水土不服，宜準備感冒、腸胃、高山反應等基本藥物。</li>
+                <li>如有必要在國外開車，出發前可備相關文件至各地監理機關申辦國際駕照，但務必先充分了解當地駕駛規則。</li>
+                <li>服裝之準備宜舒適大方、易穿脫易吸汗，以適應天氣變化，尤其要準備禦寒衣物。至於防曬油保養乳液及護脣膏等可視行程需要準備之，也請帶一套較正式服裝以備正式場合穿著。 </li>
+                <li>出國前宜先確認信用卡可用額度。刷卡付費時，請先核對簽單所列幣別及金額是否正確，勿貿然簽名，也勿讓信用卡離開視界太久。</li>
+                <li>向旅行社支付國內外旅遊團費、國際機票款，或委由旅行社代訂之國內外飯店、車船、門票等旅遊費用時，請向旅行社索取交費憑證－－「旅行業代收轉付收據」。</li>
+                <li>如逢假日出發，一定要留下承辦社的主辦人可隨時連絡得到的家中或公司值班人員電話及手機。 
+                </li>
+                <li>預購春節時期出發的團或機位，一定要取得確認之航空公司機位代號，即使簽約時，也最好註明機位代號並將所約定之行程作合約附件。</li>
+                <li>請指定領有合格領隊執照之領隊帶團。</li>
+                <li>旅客本人平日就要注意營養均衡及睡眠充足，出發前勤加運動，以確保健康身體來適應旅途中的勞頓及水土不服。</li>
+                <li>出門在外切記「財不露白」並勿走暗路，也不要隨便脫隊及單獨行動。</li>
+              </ol>
+              <p class="text-end"><a href="http://www.travel.org.tw/price/travel%20tips.htm" target="_blank" class="btn btn-success" role="button">旅遊安全錦囊</a></p>
+          </div>
+          <div class="col-md-5 order-md-0 mt-5">
+            <img src="images/safe/transportation-system.webp" class="img-fluid mx-auto" alt="搭乘大眾交通工具, 玩得開心也安全" title="搭乘大眾交通工具, 玩得開心也安全" aria-label="搭乘大眾交通工具, 玩得開心也安全">
+          </div>
+        </div>
+      <hr>
+      </div>
+      <footer class="container">
+        <p class="float-end"><a href="#top">回到頁面頂端</a></p>
+        <p>樂遊旅行 &copy; 2023</p>
+      </footer>
+    </main>
+    <!-- BootstrapJS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
